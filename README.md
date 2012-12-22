@@ -1,4 +1,4 @@
-# apitrary-orm-tutorial
+# apitrary-orm-sample
 
 Maven parent project, which contains how to use the [Apitrary ORM Library](https://github.com/denisneuling/apitrary.jar/tree/master/apitrary-orm).
 
@@ -18,5 +18,5 @@ Descriptions can be found here:
 For Maven: [Building a Project with Maven](http://maven.apache.org/run-maven/index.html)
 
 
-### Spy out the [code](https://github.com/denisneuling/apitrary-orm-tutorial/tree/master/src/main/java/com/denisneuling/apitrary/orm/tutorial)!
+### Spy out the [code](https://github.com/denisneuling/apitrary-orm-sample/tree/master/src/main/java/com/denisneuling/apitrary/orm/sample)!
 ---
