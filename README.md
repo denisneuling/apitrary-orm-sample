@@ -18,5 +18,5 @@ Descriptions can be found here:
 For Maven: [Building a Project with Maven](http://maven.apache.org/run-maven/index.html)
 
 
-### Spy out the [code](https://github.com/denisneuling/apitrary-orm-sample/tree/master/src/main/java/com/denisneuling/apitrary/orm/sample)!
+### Spy out the [code](https://github.com/denisneuling/apitrary-orm-sample/tree/master/src/main/java/com/apitrary/orm/sample)!
 ---

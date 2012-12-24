@@ -1,44 +1,52 @@
-package com.denisneuling.apitrary.orm.sample.service;
+package com.apitrary.orm.sample.service;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import com.denisneuling.apitrary.orm.sample.dao.MyDao;
-import com.denisneuling.apitrary.orm.sample.model.Employer;
-import com.denisneuling.apitrary.orm.sample.model.Occupation;
-import com.denisneuling.apitrary.orm.sample.model.Person;
-
+import com.apitrary.orm.sample.dao.MyDao;
+import com.apitrary.orm.sample.model.Employer;
+import com.apitrary.orm.sample.model.Occupation;
+import com.apitrary.orm.sample.model.Person;
 
 /**
- * <p>MyFancyBusinessService class.</p>
- *
+ * <p>
+ * MyFancyBusinessService class.
+ * </p>
+ * 
  * @author Denis Neuling (denisneuling@gmail.com)
- *
+ * 
  */
 public class MyFancyBusinessService {
 
 	private MyDao myDao;
 
 	/**
-	 * <p>Getter for the field <code>myDao</code>.</p>
-	 *
-	 * @return a {@link com.denisneuling.apitrary.orm.sample.dao.MyDao} object.
+	 * <p>
+	 * Getter for the field <code>myDao</code>.
+	 * </p>
+	 * 
+	 * @return a {@link com.apitrary.orm.sample.dao.MyDao} object.
 	 */
 	public MyDao getMyDao() {
 		return myDao;
 	}
 
 	/**
-	 * <p>Setter for the field <code>myDao</code>.</p>
-	 *
-	 * @param myDao a {@link com.denisneuling.apitrary.orm.sample.dao.MyDao} object.
+	 * <p>
+	 * Setter for the field <code>myDao</code>.
+	 * </p>
+	 * 
+	 * @param myDao
+	 *            a {@link com.apitrary.orm.sample.dao.MyDao} object.
 	 */
 	public void setMyDao(MyDao myDao) {
 		this.myDao = myDao;
 	}
 
 	/**
-	 * <p>serveInitialDataSet.</p>
+	 * <p>
+	 * serveInitialDataSet.
+	 * </p>
 	 */
 	public void serveInitialDataSet() {
 

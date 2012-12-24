@@ -8,7 +8,7 @@
 		<version>7</version>
 	</parent>
 
-	<groupId>com.denisneuling</groupId>
+	<groupId>com.apitrary</groupId>
 	<artifactId>apitrary-orm-sample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>${project.artifactId}</name>
@@ -35,6 +35,40 @@
 			</plugin>
 		</plugins>
 	</build>
+
+	<scm>
+		<url>https://github.com/denisneuling/apitrary-orm-sample.jar</url>
+		<connection>scm:git:git://github.com/denisneuling/apitrary-orm-sample.git</connection>
+		<developerConnection>scm:git:git@github.com:denisneuling/apitrary-orm-sample.git</developerConnection>
+	</scm>
+
+	<mailingLists>
+		<mailingList>
+			<name>apitrary.jar issues</name>
+			<archive>https://github.com/denisneuling/apitrary-orm-sample/issues?state=closed</archive>
+			<subscribe>https://github.com/denisneuling/apitrary-orm-sample/toggle_watch</subscribe>
+			<unsubscribe>https://github.com/denisneuling/apitrary-orm-sample/toggle_watch</unsubscribe>
+			<post>https://github.com/denisneuling/apitrary-orm-sample/issues/new</post>
+		</mailingList>
+	</mailingLists>
+
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/denisneuling/apitrary-orm-sample/issues/new</url>
+	</issueManagement>
+
+	<developers>
+		<developer>
+			<id>denisneuling</id>
+			<name>Denis Neuling</name>
+			<email>denisneuling@gmail.com</email>
+			<timezone>+1</timezone>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
 
 	<dependencies>
 		<dependency>
