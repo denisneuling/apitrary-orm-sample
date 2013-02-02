@@ -1,11 +1,8 @@
 package com.apitrary.orm.sample.model;
 
-import java.util.List;
-
+import com.apitrary.orm.annotations.Column;
 import com.apitrary.orm.annotations.Entity;
-import com.apitrary.orm.annotations.Field;
 import com.apitrary.orm.annotations.Id;
-import com.apitrary.orm.annotations.References;
 
 /**
  * <p>
@@ -21,11 +18,8 @@ public class Employer {
 	@Id
 	private String id;
 
-	@Field
+	@Column
 	private String name;
-
-	@References(Person.class)
-	private List<Person> employees;
 
 	/**
 	 * <p>
@@ -79,28 +73,5 @@ public class Employer {
 	 */
 	public void setName(String name) {
 		this.name = name;
-	}
-
-	/**
-	 * <p>
-	 * Getter for the field <code>employees</code>.
-	 * </p>
-	 * 
-	 * @return a {@link java.util.List} object.
-	 */
-	public List<Person> getEmployees() {
-		return employees;
-	}
-
-	/**
-	 * <p>
-	 * Setter for the field <code>employees</code>.
-	 * </p>
-	 * 
-	 * @param employees
-	 *            a {@link java.util.List} object.
-	 */
-	public void setEmployees(List<Person> employees) {
-		this.employees = employees;
 	}
 }

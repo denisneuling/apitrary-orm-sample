@@ -1,7 +1,7 @@
 package com.apitrary.orm.sample.model;
 
+import com.apitrary.orm.annotations.Column;
 import com.apitrary.orm.annotations.Entity;
-import com.apitrary.orm.annotations.Field;
 import com.apitrary.orm.annotations.Id;
 
 /**
@@ -18,7 +18,7 @@ public class Occupation {
 	@Id
 	private String id;
 
-	@Field
+	@Column
 	private String name;
 
 	/**

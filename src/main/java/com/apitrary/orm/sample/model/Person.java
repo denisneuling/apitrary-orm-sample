@@ -1,9 +1,9 @@
 package com.apitrary.orm.sample.model;
 
+import com.apitrary.orm.annotations.Column;
 import com.apitrary.orm.annotations.Entity;
-import com.apitrary.orm.annotations.Field;
 import com.apitrary.orm.annotations.Id;
-import com.apitrary.orm.annotations.References;
+import com.apitrary.orm.annotations.Reference;
 
 /**
  * <p>
@@ -19,13 +19,13 @@ public class Person {
 	@Id
 	private String id;
 
-	@Field
+	@Column
 	private String preName;
 
-	@Field
+	@Column
 	private String surName;
 
-	@References(Occupation.class)
+	@Reference
 	private Occupation occupation;
 
 	/**

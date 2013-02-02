@@ -68,8 +68,6 @@ public class MyFancyBusinessService {
 		List<Person> employees = new LinkedList<Person>();
 		employees.add(person);
 
-		employer.setEmployees(employees);
-
 		employer = myDao.update(employer);
 	}
 }
